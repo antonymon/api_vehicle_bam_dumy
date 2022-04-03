@@ -4,4 +4,4 @@ COPY package.json /app
 RUN npm install
 COPY . /app
 CMD npm start
-EXPOSE 2022
+EXPOSE 3001
